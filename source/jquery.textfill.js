@@ -197,7 +197,7 @@
 
 			// Contains the child element we will resize.
 			// $(this) means the parent container
-			var ourText = $(Opts.innerTag + ':visible:first', this);
+			var ourText = $(Opts.innerTag + ':first', this);
 
 			// Will resize to this dimensions.
 			// Use explicit dimensions when specified
